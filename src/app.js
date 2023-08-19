@@ -20,6 +20,6 @@ mongoose
   .then(() => console.log("Connected to Astrology database"))
   .catch((err) => console.error(err));
 
-app.use("/login", LoginRoutes);
+app.use("/user", LoginRoutes);
 
 module.exports = app;
